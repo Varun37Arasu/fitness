@@ -163,6 +163,7 @@
 
 .get_started {
   font-size: 20px;
+  font-size: 18px;
   margin: 0;
   border-radius: 12px;
   cursor: pointer;
@@ -172,6 +173,7 @@
 .find_us {
   border-radius: 12px;
   font-size: 20px;
+  font-size: 18px;
   color: #000;
   padding: 10px 20px;
   margin: 0;
@@ -237,6 +239,7 @@ p {
   font-size: 22px;
   line-height: 1.2;
   font-weight: 800;
+  margin-top: 3%;
 }
 
 /* What we do */
@@ -546,7 +549,9 @@ p {
     width: 100%;
   }
   .about_left {
-    width: 100%;
+    width: auto;
+    width: initial;
+    width: webkit-fill-available;
     padding: 50px 5px;
   }
   .trainer {
@@ -558,13 +563,21 @@ p {
     text-align: center;
     width: 90%;
   }
+  .about_right > h1 {
+    font-size: 40px;
+  }
+  .about_right > h2 {
+    font-size: 30px;
+  }
   .about_right > p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 15px;
+    margin-top: 5%;
     font-weight: 500;
   }
   .hero_left {
     font-size: 60px;
+    font-size: 45px;
   }
   .hero_right {
     /* width: 50vw; */
@@ -576,6 +589,7 @@ p {
   .hero_content_box {
     display: flex;
     flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
   }
   .hero_left p {
